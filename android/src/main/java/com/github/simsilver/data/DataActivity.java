@@ -255,12 +255,15 @@ public class DataActivity extends Activity implements AHandler.MessageProcessor 
                     TestResult data = (TestResult) msg.obj;
                     if (!data.encodings.isEmpty()) {
                         btnChangeEncoding.setEnabled(true);
+                        btnChangeEncoding.setVisibility(View.VISIBLE);
                         btnChangeEncoding.setText(data.encodings.get(0));
                         btnChangeEncoding.setOnClickListener(v -> {
                             showListMenu(v, data.encodings);
                         });
                     } else {
                         btnChangeEncoding.setOnClickListener(null);
+                        btnChangeEncoding.setEnabled(false);
+                        btnChangeEncoding.setVisibility(View.INVISIBLE);
                     }
                     ibDst.setVisibility(data.result ? View.VISIBLE : View.INVISIBLE);
                     tvPreview.setText(data.preview);

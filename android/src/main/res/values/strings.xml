@@ -4,4 +4,6 @@
     <string name="file_content_hex">File Content Hex</string>
     <string name="encodings">Encodings:</string>
     <string name="result_preview">Result Preview</string>
+    <string name="save_to_file">save to UTF-8 file</string>
+    <string name="open_file">Open file to detect</string>
 </resources>
