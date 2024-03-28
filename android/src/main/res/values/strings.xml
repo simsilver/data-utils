@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Text Encoding Detector</string>
+    <string name="file_name">File Name</string>
+    <string name="file_content_hex">File Content Hex</string>
+    <string name="encodings">Encodings:</string>
+    <string name="result_preview">Result Preview</string>
+</resources>

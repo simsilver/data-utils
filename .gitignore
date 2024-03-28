@@ -1,0 +1,17 @@
+*.iml
+.gradle
+.idea
+/local.properties
+.DS_Store
+/build
+.externalNativeBuild
+.cxx
+local.properties
+*/build/
+.project
+.classpath
+*.apk
+*.jobf
+*.cache/
+*/release/
+*.txt
